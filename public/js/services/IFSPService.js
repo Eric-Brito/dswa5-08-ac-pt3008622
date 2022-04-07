@@ -1,4 +1,4 @@
-angular.module('ifsp').factory('Contato', 'Curso', function($resource) {
+angular.module('ifsp').factory('Contato', function($resource) {
     return $resource('/contatos/:id');
 });
 
